@@ -1,6 +1,10 @@
 import { combineReducers } from 'redux';
-import placeholder from './placeholder';
+import videoInput from './videoInput';
+import videoResults from './videoResults';
+import playVideo from './playVideo'
 
 export default combineReducers({
-  placeholder: placeholder
+  videoInput,
+  videoResults,
+  playVideo
 });
