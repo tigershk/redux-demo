@@ -27,7 +27,6 @@ class Search extends React.Component {
 
     search(this.state.query)
       .then(results => {
-        debugger;
         this.setState({
           results: results.items
         });

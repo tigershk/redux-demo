@@ -1,5 +1,5 @@
 {
-  "name": "expense-tracker",
+  "name": "redux-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -21,7 +21,8 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-jest": "^22.4.1",
@@ -37,7 +38,7 @@
     "jest": "^22.4.2",
     "react-test-renderer": "^16.2.0",
     "redux-devtools": "^3.4.1",
-    "webpack": "^4.0.1",
+    "webpack": "^4.15.1",
     "webpack-cli": "^2.0.9"
   }
 }
