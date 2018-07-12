@@ -1,3 +1,22 @@
+.app{
+  display:flex;
+  flex-direction:row;
+  margin-left:20px;
+  margin-top:50px;
+}
+
+.player{
+flex:1
+}
+.results{
+flex:1;
+justify-content: center;
+margin-left:50px;
+}
+.inputField{
+  margin-left:50px;
+}
+
 .results-list {
   list-style-type: none;
   margin-top: 50px;

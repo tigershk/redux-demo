@@ -10,10 +10,13 @@ const mapStateToProps = reduxState => {
 
 const mapDispatchToProps = dispatch => {
   return {
+
     handleChange: event => dispatch(setQueryString(event)),
+
     handleSubmit: (event, queryString) => {
       event.preventDefault();
       dispatch(fetchVideos(queryString));
+
     }
   };
 };

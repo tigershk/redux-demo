@@ -21,6 +21,7 @@ export function fetchVideos(queryString) {
       .then(json => {
         dispatch(receiveVideos(json.items));
         dispatch(setQueryString(""));
+        dispatch(addToHistory(queryString));
       })
       .catch(error => console.log("Messed up search", error));
   }
@@ -33,3 +34,9 @@ export function playVideo(videoId) {
   }
 }
 
+export function addToHistory(queryString) {
+  return {
+    type: 'ADD_TO_HISTORY',
+    queryString
+  }
+}
